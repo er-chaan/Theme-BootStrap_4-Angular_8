@@ -60,7 +60,7 @@
               "src/theme/dist/js/adminlte.min.js",
               "src/theme/dist/js/pages/dashboard.js",
               "src/theme/dist/js/demo.js",
-              "src/theme/src/assets/js/custom.js"
+              "src/assets/js/custom.js"
             ]
           },
           "configurations": {

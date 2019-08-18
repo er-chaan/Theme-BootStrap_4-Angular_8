@@ -7,7 +7,8 @@ import { HeaderComponent } from './components/layout/header/header.component';
 import { NavigationComponent } from './components/layout/navigation/navigation.component';
 import { ContentComponent } from './components/layout/content/content.component';
 import { SidebarComponent } from './components/layout/sidebar/sidebar.component';
-import { DashboardComponent } from './components/pages/dashboard/dashboard.component';
+import { Dashboard1Component } from './components/pages/dashboard1/dashboard1.component';
+import { Dashboard2Component } from './components/pages/dashboard2/dashboard2.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DashboardComponent } from './components/pages/dashboard/dashboard.compo
     NavigationComponent,
     ContentComponent,
     SidebarComponent,
-    DashboardComponent,
+    Dashboard1Component,
+    Dashboard2Component,
   ],
   imports: [
     BrowserModule,
