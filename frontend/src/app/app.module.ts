@@ -9,6 +9,8 @@ import { ContentComponent } from './components/layout/content/content.component'
 import { SidebarComponent } from './components/layout/sidebar/sidebar.component';
 import { Dashboard1Component } from './components/pages/dashboard1/dashboard1.component';
 import { Dashboard2Component } from './components/pages/dashboard2/dashboard2.component';
+import { Error404Component } from './components/common/error404/error404.component';
+import { Error500Component } from './components/common/error500/error500.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { Dashboard2Component } from './components/pages/dashboard2/dashboard2.co
     SidebarComponent,
     Dashboard1Component,
     Dashboard2Component,
+    Error404Component,
+    Error500Component,
   ],
   imports: [
     BrowserModule,
