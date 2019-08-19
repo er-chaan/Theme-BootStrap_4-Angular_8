@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ContentComponent, FooterComponent, HeaderComponent, NavigationComponent, 
+        SidebarComponent } from './components/layout';
 
 @Component({
   selector: 'app-root',
