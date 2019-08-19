@@ -11,6 +11,14 @@ import { Dashboard1Component } from './components/pages/dashboard1/dashboard1.co
 import { Dashboard2Component } from './components/pages/dashboard2/dashboard2.component';
 import { Error404Component } from './components/common/error404/error404.component';
 import { Error500Component } from './components/common/error500/error500.component';
+import { RegisterComponent } from './components/common/register/register.component';
+import { LockscreenComponent } from './components/common/lockscreen/lockscreen.component';
+import { LoginComponent } from './components/common/login/login.component';
+import { ProfileComponent } from './components/common/profile/profile.component';
+import { InvoiceComponent } from './components/common/invoice/invoice.component';
+import { BlankComponent } from './components/common/blank/blank.component';
+import { PaceComponent } from './components/common/pace/pace.component';
+import { InvoicePrintComponent } from './components/common/invoice-print/invoice-print.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +32,14 @@ import { Error500Component } from './components/common/error500/error500.compone
     Dashboard2Component,
     Error404Component,
     Error500Component,
+    RegisterComponent,
+    LockscreenComponent,
+    LoginComponent,
+    ProfileComponent,
+    InvoiceComponent,
+    BlankComponent,
+    PaceComponent,
+    InvoicePrintComponent,
   ],
   imports: [
     BrowserModule,
